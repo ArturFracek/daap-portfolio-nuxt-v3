@@ -1,0 +1,113 @@
+@use "sass:map";
+
+//! Theme color palettes for light and dark modes
+
+$light-palette: (
+  primary: #2563eb,
+  secondary: #7c3aed,
+  background: #ffffff,
+  surface: #f8fafc,
+  text: #0f172a,
+  text-secondary: #475569,
+  accent: #3b82f6,
+  border: #e2e8f0,
+  success: #10b981,
+  warning: #f59e0b,
+  error: #ef4444,
+);
+
+$dark-palette: (
+  primary: #60a5fa,
+  secondary: #8b5cf6,
+  background: #0b1120,
+  surface: #111827,
+  text: #f1f5f9,
+  text-secondary: #94a3b8,
+  accent: #38bdf8,
+  border: #1f2937,
+  success: #34d399,
+  warning: #fbbf24,
+  error: #f87171,
+);
+
+//! CSS variables - default to light palette
+:root {
+  --color-primary: #{map.get($light-palette, primary)};
+  --color-secondary: #{map.get($light-palette, secondary)};
+  --color-background: #{map.get($light-palette, background)};
+  --color-surface: #{map.get($light-palette, surface)};
+  --color-text: #{map.get($light-palette, text)};
+  --color-text-secondary: #{map.get($light-palette, text-secondary)};
+  --color-accent: #{map.get($light-palette, accent)};
+  --color-border: #{map.get($light-palette, border)};
+  --color-success: #{map.get($light-palette, success)};
+  --color-warning: #{map.get($light-palette, warning)};
+  --color-error: #{map.get($light-palette, error)};
+
+  --color-primary-rgb: 37, 99, 235;
+  --color-secondary-rgb: 124, 58, 237;
+  --color-accent-rgb: 59, 130, 246;
+  --color-surface-rgb: 248, 250, 252;
+  --color-border-rgb: 226, 232, 240;
+  --color-text-secondary-rgb: 71, 85, 105;
+
+  --gradient-primary: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+  --gradient-accent: linear-gradient(135deg, #38bdf8 0%, #8b5cf6 100%);
+  --gradient-surface: linear-gradient(180deg, rgba(248, 250, 252, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%);
+}
+
+.dark {
+  --color-primary: #{map.get($dark-palette, primary)};
+  --color-secondary: #{map.get($dark-palette, secondary)};
+  --color-background: #{map.get($dark-palette, background)};
+  --color-surface: #{map.get($dark-palette, surface)};
+  --color-text: #{map.get($dark-palette, text)};
+  --color-text-secondary: #{map.get($dark-palette, text-secondary)};
+  --color-accent: #{map.get($dark-palette, accent)};
+  --color-border: #{map.get($dark-palette, border)};
+  --color-success: #{map.get($dark-palette, success)};
+  --color-warning: #{map.get($dark-palette, warning)};
+  --color-error: #{map.get($dark-palette, error)};
+
+  --color-primary-rgb: 96, 165, 250;
+  --color-secondary-rgb: 139, 92, 246;
+  --color-accent-rgb: 56, 189, 248;
+  --color-surface-rgb: 17, 24, 39;
+  --color-border-rgb: 31, 41, 55;
+  --color-text-secondary-rgb: 148, 163, 184;
+
+  --gradient-primary: linear-gradient(135deg, #60a5fa 0%, #8b5cf6 100%);
+  --gradient-accent: linear-gradient(135deg, #0ea5e9 0%, #8b5cf6 100%);
+  --gradient-surface: linear-gradient(180deg, rgba(15, 23, 42, 0.9) 0%, rgba(17, 24, 39, 0.9) 100%);
+}
+
+//! Spacing scale
+$spacing-xxs: 0.125rem; // 2px
+$spacing-xs: 0.25rem; // 4px
+$spacing-sm: 0.5rem; // 8px
+$spacing-md: 1rem; // 16px
+$spacing-lg: 1.5rem; // 24px
+$spacing-xl: 2rem; // 32px
+$spacing-2xl: 3rem; // 48px
+$spacing-3xl: 4rem; // 64px
+$spacing-4xl: 5rem; // 80px
+
+//! Border radius
+$border-radius-sm: 8px;
+$border-radius-md: 12px;
+$border-radius-lg: 16px;
+$border-radius-xl: 20px;
+
+//! Transitions
+$transition-fast: 150ms ease;
+$transition-base: 300ms ease;
+$transition-slow: 500ms ease;
+
+//! Breakpoints
+$breakpoint-mobile: 768px;
+$breakpoint-tablet: 1024px;
+$breakpoint-desktop: 1280px;
+
+//! Typography
+$font-family-base: "Sora", system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$font-family-heading: "Unbounded", system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;

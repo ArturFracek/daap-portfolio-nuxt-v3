@@ -1,0 +1,583 @@
+{
+  "common": {
+    "readMore": "Read more",
+    "readLess": "Read less",
+    "theme": "Theme",
+    "language": "Language",
+    "step": "Step"
+  },
+  "controls": {
+    "theme": "Theme",
+    "language": "Language",
+    "menuLabel": "Settings",
+    "switchToLight": "Switch to light theme",
+    "switchToDark": "Switch to dark theme",
+    "switchToPolish": "Switch to Polish",
+    "switchToEnglish": "Switch to English"
+  },
+  "hero": {
+    "headline": "Industrial Systems Tailored to Measure",
+    "subheadline": "Integration of IT, automation and people into one ecosystem",
+    "cta": "Start autopresentation",
+    "ctaStop": "Stop",
+    "scrollHint": "or start scrolling",
+    "scrollHintAria": "Scroll to next section",
+    "featureBadge1": "Web applications",
+    "featureBadge2": "Automation",
+    "featureBadge3": "System integration"
+  },
+  "problemSolution": {
+    "sectionTitle": "Challenges and Solutions",
+    "sectionSubtitle": "Problems and Solutions for Industry 4.0.",
+    "columnProblemSubtitle": "Pain points we eliminate for your teams",
+    "columnSolutionSubtitle": "What our solution delivers back to operations",
+    "labels": {
+      "problemBadge": "Problem",
+      "solutionBadge": "Solution",
+      "progressPrefix": "Pair",
+      "progressSeparator": "/",
+      "ariaRoleDescription": "problem solution pair"
+    },
+    "pairs": [
+      {
+        "id": "manual-reporting",
+        "problem": {
+          "icon": "material-symbols:description-outline",
+          "title": "Manual reporting",
+          "description": "Hours lost copying data between spreadsheets and ERP systems.",
+          "bullets": [
+            "Manual data entry in spreadsheets",
+            "No up-to-date reports",
+            "Human errors creep in"
+          ]
+        },
+        "solution": {
+          "icon": "material-symbols:monitoring-outline",
+          "title": "Automated MES reports",
+          "description": "The system delivers real-time reports and KPIs with zero manual effort.",
+          "bullets": [
+            "Reporting without Excel exports",
+            "Data refreshed every minute",
+            "Shared KPI dashboards"
+          ],
+          "bulletIcons": [
+            "material-symbols:auto-awesome-outline",
+            "material-symbols:schedule-outline",
+            "material-symbols:dashboard-outline"
+          ]
+        }
+      },
+      {
+        "id": "data-silos",
+        "problem": {
+          "icon": "material-symbols:inventory-2-outline",
+          "title": "Data silos",
+          "description": "Production, warehouse and planning tools do not talk to each other, creating delays and chaos.",
+          "bullets": [
+            "Each team keeps separate spreadsheets",
+            "No consistent data set",
+            "Duplicate information everywhere"
+          ]
+        },
+        "solution": {
+          "icon": "material-symbols:database-outline",
+          "title": "Central data platform",
+          "description": "A single source of truth for the entire organisation with fully synchronised information.",
+          "bullets": [
+            "One platform for every team",
+            "Real-time synchronisation",
+            "Consistent data across the plant"
+          ],
+          "bulletIcons": [
+            "material-symbols:hub-outline",
+            "material-symbols:settings-input-component-outline",
+            "material-symbols:verified-outline"
+          ]
+        }
+      },
+      {
+        "id": "late-reaction",
+        "problem": {
+          "icon": "material-symbols:warning-outline",
+          "title": "Reactive response",
+          "description": "Issues surface only after the shift ends. Missing alerts translate into expensive downtime.",
+          "bullets": [
+            "Downtime detected too late",
+            "No real-time notifications",
+            "Production losses accumulate"
+          ]
+        },
+        "solution": {
+          "icon": "material-symbols:add-alert-outline",
+          "title": "Real-time monitoring & alerts",
+          "description": "24/7 monitoring that immediately notifies teams. Act proactively instead of reacting late.",
+          "bullets": [
+            "SMS/Email/Push alerts",
+            "Issues detected within seconds",
+            "35% downtime reduction"
+          ],
+          "bulletIcons": [
+            "material-symbols:notifications-outline",
+            "material-symbols:bolt-outline",
+            "material-symbols:trending-down"
+          ]
+        }
+      },
+      {
+        "id": "slow-processes",
+        "problem": {
+          "icon": "material-symbols:schedule-outline",
+          "title": "Slow processes",
+          "description": "Manual work-order entry, paper forms and hunting for information across systems.",
+          "bullets": [
+            "2-3 hours spent entering orders",
+            "Paper forms go missing",
+            "Information scattered everywhere"
+          ]
+        },
+        "solution": {
+          "icon": "material-symbols:bolt-outline",
+          "title": "Process automation",
+          "description": "Orders flow automatically from ERP to the shop floor, with every operator seeing the same data.",
+          "bullets": [
+            "Orders in seconds, not hours",
+            "Digital forms",
+            "Everything in one system"
+          ],
+          "bulletIcons": [
+            "material-symbols:speed-outline",
+            "material-symbols:description-outline",
+            "material-symbols:integration-instructions-outline"
+          ]
+        }
+      },
+      {
+        "id": "low-oee",
+        "problem": {
+          "icon": "material-symbols:trending-down",
+          "title": "Low OEE",
+          "description": "Efficiency gaps stay hidden. There is no visibility into the causes of losses and micro stoppages.",
+          "bullets": [
+            "OEE below 60%",
+            "Unknown loss drivers",
+            "No data to analyse"
+          ]
+        },
+        "solution": {
+          "icon": "material-symbols:analytics-outline",
+          "title": "Real-time OEE analytics",
+          "description": "Automatic OEE calculation with detailed breakdown of losses so you know where to optimise.",
+          "bullets": [
+            "OEE uplift to 80%+",
+            "Root-cause analysis",
+            "Dashboards and reports"
+          ],
+          "bulletIcons": [
+            "material-symbols:trending-up",
+            "material-symbols:psychology-outline",
+            "material-symbols:dashboard-outline"
+          ]
+        }
+      },
+      {
+        "id": "no-communication",
+        "problem": {
+          "icon": "material-symbols:group-outline",
+          "title": "Poor communication",
+          "description": "Information passes verbally or on paper. Teams lack visibility into what happens on other lines.",
+          "bullets": [
+            "Shift handover is verbal",
+            "No event history",
+            "Teams operate in isolation"
+          ]
+        },
+        "solution": {
+          "icon": "material-symbols:smartphone-outline",
+          "title": "Mobile access for everyone",
+          "description": "Mobile and web apps provide instant access to production events, updates and instructions anywhere.",
+          "bullets": [
+            "Access via smartphone/tablet",
+            "Complete event history",
+            "Real-time communication"
+          ],
+          "bulletIcons": [
+            "material-symbols:devices-outline",
+            "material-symbols:event-note-outline",
+            "material-symbols:forum-outline"
+          ]
+        }
+      }
+    ]
+  },
+  "solutions": {
+    "title": "Our Solutions",
+    "mes": {
+      "title": "MES Systems",
+      "description": "Advanced Manufacturing Execution Systems for production management"
+    },
+    "integration": {
+      "title": "Systems Integration",
+      "description": "Integration of vision systems, measurement systems, and quality control"
+    },
+    "automation": {
+      "title": "Industrial Automation",
+      "description": "Comprehensive automation of production processes"
+    }
+  },
+  "services": {
+    "title": "Our Specializations",
+    "hubLabel": "Integrated System",
+    "webApps": {
+      "title": "Web Applications",
+      "tagline": "Your control center",
+      "description": "Intuitive dashboards and web applications that provide full control over production processes in real-time.",
+      "hubLabel": "Web Application",
+      "badges": {
+        "mes": {
+          "label": "MES",
+          "expanded": "Real-time monitoring and alerts"
+        },
+        "wms": {
+          "label": "WMS",
+          "expanded": "Warehouse management"
+        },
+        "aps": {
+          "label": "APS",
+          "expanded": "Advanced production planning"
+        },
+        "cmms": {
+          "label": "CMMS",
+          "expanded": "Machine maintenance and service"
+        },
+        "mrp": {
+          "label": "MRP",
+          "expanded": "Material requirements planning"
+        },
+        "erp": {
+          "label": "ERP",
+          "expanded": "Financial and accounting systems"
+        }
+      }
+    },
+    "automation": {
+      "title": "Industrial Automation",
+      "tagline": "Digital pulse of the factory",
+      "description": "Integration of sensors, PLC controllers, and machines with IT systems, creating a cohesive production ecosystem.",
+      "hubLabel": "Automation",
+      "badges": {
+        "plc": {
+          "label": "PLC",
+          "expanded": "Logic controllers"
+        },
+        "scada": {
+          "label": "SCADA",
+          "expanded": "Supervision and control"
+        },
+        "iot": {
+          "label": "IoT",
+          "expanded": "Internet of Things"
+        },
+        "sensors": {
+          "label": "Sensors",
+          "expanded": "Measurements and monitoring"
+        },
+        "hmi": {
+          "label": "HMI",
+          "expanded": "Operator interfaces"
+        },
+        "dcs": {
+          "label": "DCS",
+          "expanded": "Distributed control systems"
+        }
+      }
+    },
+    "integration": {
+      "title": "Integration",
+      "tagline": "One cohesive ecosystem",
+      "description": "Full integration of ERP, MES, WMS, and other systems, creating a seamless data flow throughout the company.",
+      "hubLabel": "Integrated System",
+      "badges": {
+        "mes": {
+          "label": "MES",
+          "expanded": "Real-time monitoring and alerts"
+        },
+        "wms": {
+          "label": "WMS",
+          "expanded": "Warehouse management"
+        },
+        "aps": {
+          "label": "APS",
+          "expanded": "Advanced production planning"
+        },
+        "cmms": {
+          "label": "CMMS",
+          "expanded": "Machine maintenance and service"
+        },
+        "mrp": {
+          "label": "MRP",
+          "expanded": "Material requirements planning"
+        },
+        "erp": {
+          "label": "ERP",
+          "expanded": "Financial and accounting systems"
+        },
+        "plc": {
+          "label": "PLC",
+          "expanded": "Logic controllers"
+        },
+        "scada": {
+          "label": "SCADA",
+          "expanded": "Supervision and control"
+        },
+        "iot": {
+          "label": "IoT",
+          "expanded": "Internet of Things"
+        },
+        "sensors": {
+          "label": "Sensors",
+          "expanded": "Measurements and monitoring"
+        },
+        "hmi": {
+          "label": "HMI",
+          "expanded": "Operator interfaces"
+        },
+        "dcs": {
+          "label": "DCS",
+          "expanded": "Distributed control systems"
+        }
+      }
+    }
+  },
+  "process": {
+    "title": {
+      "prefix": "Our",
+      "gradient": "shared",
+      "suffix": "process"
+    },
+    "badge": "COLLABORATION AT EVERY STEP",
+    "subtitle": "How we work on your project",
+    "collaboration": "COLLABORATION",
+    "stage_label": "STAGE",
+    "stage1": {
+      "title": "Analysis",
+      "description": "In-depth analysis of your needs and production requirements. We understand your unique process and identify key areas for optimization.",
+      "feature1": "Consultations with production team",
+      "feature2": "Analysis of existing processes",
+      "feature3": "Joint determination of priorities",
+      "feature4": "Mapping data flows and integrations",
+      "collaboration": "Together with your team"
+    },
+    "stage2": {
+      "title": "Design",
+      "description": "Creating solution architecture tailored to your facility. We design a system that perfectly fits into your production processes.",
+      "feature1": "Presentation of concepts and prototypes",
+      "feature2": "Iterative agreement on details",
+      "feature3": "Your approval before code",
+      "feature4": "Detailed documentation of architecture and integrations",
+      "collaboration": "Your approval before code"
+    },
+    "stage3": {
+      "title": "Implementation",
+      "description": "Programming, integration and system testing. We build the solution according to the approved design, with full transparency of the process.",
+      "feature1": "Deployment to test environment",
+      "feature2": "Joint testing with your team",
+      "feature3": "Iterative improvements based on feedback",
+      "feature4": "Integration with existing systems (ERP, MES, WMS)",
+      "collaboration": "Joint testing with your team"
+    },
+    "stage4": {
+      "title": "Deployment",
+      "description": "Installation and system startup in your facility. We ensure a smooth transition with minimal impact on production.",
+      "feature1": "Migration after your approval",
+      "feature2": "Training tailored to the team",
+      "feature3": "Support in the first days of operation",
+      "feature4": "On-site hardware installation and system configuration",
+      "collaboration": "Training your team"
+    },
+    "stage5": {
+      "title": "Support",
+      "description": "Continuous technical support and system development. We are with you at every stage, ensuring long-term success of the solution.",
+      "feature1": "Dedicated technical contact",
+      "feature2": "Continuous development based on needs",
+      "feature3": "Proactive improvement proposals",
+      "feature4": "Regular updates and new features",
+      "collaboration": "Constant contact with supervisor"
+    }
+  },
+  "realizacje": {
+    "title": "Our case studies",
+    "subtitle": "See our previous projects and experience the quality of our services",
+    "lead": "Three scrolly-telling scenes: production line photo + web app screen + narrative of problem, solution and outcome.",
+    "media": {
+      "lineLabel": "Production line photo",
+      "appLabel": "Demo screen"
+    },
+    "labels": {
+      "problem": "Problem",
+      "solution": "Solution",
+      "result": "Outcome"
+    },
+    "cases": [
+      {
+        "title": "Scanners & traceability",
+        "subtitle": "Automated batch identification on packing lines",
+        "problem": [
+          "No full traceability of batches and operators at critical steps.",
+          "Reports scattered across many spreadsheets and files.",
+          "No quality evidence when handling complaints."
+        ],
+        "solution": [
+          "Sensors and scanners on key stations, mapping batches and operators.",
+          "Integration with scales and labels, real-time event logging.",
+          "Traceability dashboard in the web app with batch history."
+        ],
+        "result": [
+          "Complete batch path available in seconds.",
+          "Fewer labeling errors and fewer manual fixes.",
+          "Faster responses to audits and customer claims."
+        ]
+      },
+      {
+        "title": "OEE and downtime",
+        "subtitle": "Machine monitoring and maintenance alerts",
+        "problem": [
+          "Low OEE and no live visibility of downtime.",
+          "Manual reports delay reactions to failures.",
+          "No data to plan maintenance effectively."
+        ],
+        "solution": [
+          "OEE module with machine status sensors and automatic downtime classification.",
+          "Alerts for failures and threshold breaches on downtime length.",
+          "OEE panel with event timeline and filters for shifts and cells."
+        ],
+        "result": [
+          "Faster reaction to failures and shorter unplanned stops.",
+          "Better maintenance planning using failure history.",
+          "A single source of truth for OEE and event history."
+        ]
+      },
+      {
+        "title": "ERP/MES/WMS integration",
+        "subtitle": "API hub for production and warehouse sync",
+        "problem": [
+          "Order, production and inventory data spread across systems.",
+          "Delays in updating inventory after production finishes.",
+          "High risk of manual data entry errors."
+        ],
+        "solution": [
+          "API hub connecting ERP, MES and WMS with bidirectional sync.",
+          "Process map: orders → production → receipts and issues.",
+          "Validations and queues for resilience to temporary outages."
+        ],
+        "result": [
+          "Consistent data across orders, production and warehouse.",
+          "Fewer manual corrections and inventory mismatches.",
+          "Ready for financial and quality reporting near real time."
+        ]
+      }
+    ]
+  },
+  "whyUs": {
+    "title": "Why us?",
+    "subtitle": "Industrial automation meets artificial intelligence",
+    "nextCard": "Next card",
+    "value1": {
+      "title": "Industrial automation experts",
+      "description": "We are a team of practitioners who bridge the world of sensors and PLC controllers with modern software. Thanks to hundreds of deployments, we take full responsibility for the stability, safety, and performance of your production lines.",
+      "highlights": [
+        "Interdisciplinary team – experts in automation, robotics, and IT working towards one goal.",
+        "360° support – from audit and sensor selection, to installation, programming, and service.",
+        "Industry 4.0 standards – we design systems with 24/7 operation in the most demanding conditions in mind."
+      ]
+    },
+    "value2": {
+      "title": "Dedicated AI agents for industry",
+      "description": "We create specialized AI agents that learn the unique characteristics of your facility and processes. We assign them specific operational roles, making them real-time digital support for your team.",
+      "highlights": [
+        "Intelligent analysis and reporting – automatic generation of insights from large datasets.",
+        "Anomaly and aberration detection – immediate identification of even the smallest deviations from the norm.",
+        "Process adaptation – AI modeling tailored to specific machines and production lines."
+      ]
+    },
+    "value3": {
+      "title": "Dynamic analytics and reporting",
+      "description": "We deliver tools that transform raw data into readable business insights. Our systems enable full view personalization and documentation automation, giving you full visibility into your facility's condition at any time.",
+      "highlights": [
+        "PDF reports on demand – automatic generation of detailed summaries and reports for any selected period.",
+        "Interactive dashboards – flexible charts with \"drill-down\" functionality, enabling view customization and deep data analysis.",
+        "AI-powered insights – intelligent trend summaries that suggest what to focus on in the coming week."
+      ]
+    },
+    "value4": {
+      "title": "Iterative implementation & partnership",
+      "description": "We deliver projects in stages, ensuring a smooth transition from concept to full implementation. We bridge the worlds of automation and IT, delivering functionalities that we jointly design and verify at every step.",
+      "highlights": [
+        "Safe staging – full testing of automation and code before launch.",
+        "Transparent process – constant contact and ongoing discussion of functionalities.",
+        "Custom solutions – systems precisely tailored to measure."
+      ]
+    },
+    "value5": {
+      "title": "Developers passionate about improvements",
+      "description": "We build a team of experienced software engineers who deeply understand the dynamics of modern industry. Our systems combine Enterprise-class reliability with modern UI/UX standards, delivering tools that employees simply enjoy using.",
+      "highlights": [
+        "Direct dialogue with creators – you design functionalities and app appearance in constant contact with our developers.",
+        "Intuitiveness and ergonomics – we focus on simplicity of use, so system deployment in the team is quick and hassle-free.",
+        "Versatility and stability – we build flexible solutions that maintain the highest performance under heavy data load."
+      ]
+    },
+    "value6": {
+      "title": "Scalability and Future-Ready Systems",
+      "description": "We design solutions with the future of your facility in mind. Our architecture is modular, allowing for rapid expansion of the system with new production lines, machines, or sensors without the need to rebuild the entire IT foundation.",
+      "highlights": [
+        "Modular construction – freely adding new functionalities and workstations as the company grows.",
+        "Openness to integrations – easy connectivity with your existing ERP, CRM, or warehouse systems.",
+        "Technological longevity – we use technology stacks that will be supported for decades."
+      ],
+      "cta": {
+        "primary": {
+          "text": "Contact us",
+          "href": "#contact"
+        },
+        "secondary": {
+          "text": "View portfolio",
+          "href": "#realizacje"
+        }
+      },
+      "testimonial": "50+ satisfied clients across Poland"
+    }
+  },
+  "contact": {
+    "title": "Ready for Digital Transformation?",
+    "subtitle": "Let's talk about how we can optimize your facility.",
+    "form": {
+      "cardTitle": "Write to us",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Schedule a free consultation",
+      "submitting": "Sending...",
+      "success": "Thank you! Email client opened.",
+      "copy": "Copy",
+      "copied": "Copied",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "your{'@'}email.com",
+      "messagePlaceholder": "Write your message here..."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Poland",
+      "addressValue": "Poland",
+      "responseTime": "Response within 24h",
+      "responseValue": "24h",
+      "copyEmail": "Copy email",
+      "copyPhone": "Copy phone"
+    }
+  },
+  "mobileNav": {
+    "next": "Next",
+    "previous": "Previous"
+  }
+}

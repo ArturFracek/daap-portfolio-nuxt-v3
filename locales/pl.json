@@ -1,0 +1,583 @@
+{
+  "controls": {
+    "theme": "Motyw",
+    "language": "Język",
+    "menuLabel": "Ustawienia",
+    "switchToLight": "Przełącz na jasny motyw",
+    "switchToDark": "Przełącz na ciemny motyw",
+    "switchToPolish": "Przełącz na polski",
+    "switchToEnglish": "Przełącz na angielski"
+  },
+  "hero": {
+    "headline": "Systemy przemysłowe szyte na miarę",
+    "subheadline": "Integracja IT, automatyki i ludzi w jeden ekosystem",
+    "cta": "Włącz autoprezentację",
+    "ctaStop": "Zatrzymaj",
+    "scrollHint": "lub zacznij przewijać",
+    "scrollHintAria": "Przewiń do następnej sekcji",
+    "featureBadge1": "Aplikacje webowe",
+    "featureBadge2": "Automatyka",
+    "featureBadge3": "Integracja systemów"
+  },
+  "problemSolution": {
+    "sectionTitle": "Wyzwania i Rozwiązania",
+    "sectionSubtitle": "Problemy i Rozwiązania dla przemysłu 4.0.",
+    "columnProblemSubtitle": "Bariery i punkty bólu do eliminacji",
+    "columnSolutionSubtitle": "Co dostarczamy i jakie korzyści uzyskujesz",
+    "labels": {
+      "problemBadge": "Problem",
+      "solutionBadge": "Rozwiązanie",
+      "progressPrefix": "Para",
+      "progressSeparator": "/",
+      "ariaRoleDescription": "para problem rozwiązanie"
+    },
+    "pairs": [
+      {
+        "id": "manual-reporting",
+        "problem": {
+          "icon": "material-symbols:description-outline",
+          "title": "Ręczne raportowanie",
+          "description": "Godziny tracone na kopiowanie danych między Excelem a systemami ERP.",
+          "bullets": [
+            "Dane kopiowane ręcznie",
+            "Brak aktualnych raportów",
+            "Błędy ludzkie w arkuszach"
+          ]
+        },
+        "solution": {
+          "icon": "material-symbols:monitoring-outline",
+          "title": "Automatyczne raporty MES",
+          "description": "System generuje raporty i KPI w czasie rzeczywistym, bez dodatkowej pracy zespołu.",
+          "bullets": [
+            "Raporty bez udziału Excela",
+            "Aktualizacja danych co minutę",
+            "Widok KPI dla całej kadry"
+          ],
+          "bulletIcons": [
+            "material-symbols:auto-awesome-outline",
+            "material-symbols:schedule-outline",
+            "material-symbols:dashboard-outline"
+          ]
+        }
+      },
+      {
+        "id": "data-silos",
+        "problem": {
+          "icon": "material-symbols:inventory-2-outline",
+          "title": "Dane w silosach",
+          "description": "Produkcja, magazyn i planowanie korzystają z różnych systemów. Brak komunikacji prowadzi do chaosu i opóźnień.",
+          "bullets": [
+            "Każdy dział ma własne Excele",
+            "Brak spójności danych",
+            "Duplikacja informacji"
+          ]
+        },
+        "solution": {
+          "icon": "material-symbols:database-outline",
+          "title": "Centralna baza danych",
+          "description": "Jedno źródło prawdy dla całej organizacji. Wszystkie zespoły pracują na tych samych, aktualnych danych.",
+          "bullets": [
+            "Jedna platforma dla wszystkich",
+            "Synchronizacja w czasie rzeczywistym",
+            "Spójne dane w całej firmie"
+          ],
+          "bulletIcons": [
+            "material-symbols:hub-outline",
+            "material-symbols:settings-input-component-outline",
+            "material-symbols:verified-outline"
+          ]
+        }
+      },
+      {
+        "id": "late-reaction",
+        "problem": {
+          "icon": "material-symbols:warning-outline",
+          "title": "Reakcja po fakcie",
+          "description": "Dowiadujecie się o problemach dopiero po zakończeniu zmiany. Brak ostrzeżeń kosztuje produkcję.",
+          "bullets": [
+            "Przestoje wykrywane za późno",
+            "Brak alertów w czasie rzeczywistym",
+            "Straty w produkcji"
+          ]
+        },
+        "solution": {
+          "icon": "material-symbols:add-alert-outline",
+          "title": "Monitoring i alerty real-time",
+          "description": "System monitoruje procesy 24/7 i natychmiast informuje o problemach. Działacie proaktywnie, nie reaktywnie.",
+          "bullets": [
+            "Alerty SMS/Email/Push",
+            "Wykrywanie problemów w sekundach",
+            "Redukcja przestojów o 35%"
+          ],
+          "bulletIcons": [
+            "material-symbols:notifications-outline",
+            "material-symbols:bolt-outline",
+            "material-symbols:trending-down"
+          ]
+        }
+      },
+      {
+        "id": "slow-processes",
+        "problem": {
+          "icon": "material-symbols:schedule-outline",
+          "title": "Wolne procesy",
+          "description": "Ręczne wprowadzanie zleceń produkcyjnych, papierowe formularze, szukanie informacji w różnych miejscach.",
+          "bullets": [
+            "2-3 godziny na wprowadzanie zleceń",
+            "Papierowe formularze zagubione",
+            "Czas szukania informacji"
+          ]
+        },
+        "solution": {
+          "icon": "material-symbols:bolt-outline",
+          "title": "Automatyzacja procesów",
+          "description": "Zlecenia trafiają do produkcji automatycznie z ERP. Operatorzy mają komplet danych w jednym miejscu.",
+          "bullets": [
+            "Zlecenia w sekundach, nie godzinach",
+            "Cyfrowe formularze",
+            "Wszystko w jednym systemie"
+          ],
+          "bulletIcons": [
+            "material-symbols:speed-outline",
+            "material-symbols:description-outline",
+            "material-symbols:integration-instructions-outline"
+          ]
+        }
+      },
+      {
+        "id": "low-oee",
+        "problem": {
+          "icon": "material-symbols:trending-down",
+          "title": "Niska wydajność OEE",
+          "description": "Nie wiecie, dlaczego produkcja jest nieefektywna. Brak widoczności przyczyn strat i mikroprzestojów.",
+          "bullets": [
+            "OEE poniżej 60%",
+            "Nieznane przyczyny strat",
+            "Brak danych do analizy"
+          ]
+        },
+        "solution": {
+          "icon": "material-symbols:analytics-outline",
+          "title": "Analiza OEE w czasie rzeczywistym",
+          "description": "System automatycznie liczy OEE i pokazuje dokładne przyczyny strat. Widzicie, gdzie optymalizować produkcję.",
+          "bullets": [
+            "Wzrost OEE do 80%+",
+            "Analiza przyczyn strat",
+            "Dashboardy i raporty"
+          ],
+          "bulletIcons": [
+            "material-symbols:trending-up",
+            "material-symbols:psychology-outline",
+            "material-symbols:dashboard-outline"
+          ]
+        }
+      },
+      {
+        "id": "no-communication",
+        "problem": {
+          "icon": "material-symbols:group-outline",
+          "title": "Brak komunikacji",
+          "description": "Informacje przekazywane ustnie lub na kartkach. Operatorzy nie wiedzą, co dzieje się na innych liniach.",
+          "bullets": [
+            "Ustne przekazywanie zmiany",
+            "Brak historii zdarzeń",
+            "Izolacja zespołów"
+          ]
+        },
+        "solution": {
+          "icon": "material-symbols:smartphone-outline",
+          "title": "Mobilny dostęp",
+          "description": "Aplikacja mobilna i webowa daje dostęp do informacji z każdego miejsca. Komunikaty i historia zdarzeń pod ręką.",
+          "bullets": [
+            "Dostęp ze smartfona/tabletu",
+            "Historia zdarzeń",
+            "Komunikacja w czasie rzeczywistym"
+          ],
+          "bulletIcons": [
+            "material-symbols:devices-outline",
+            "material-symbols:event-note-outline",
+            "material-symbols:forum-outline"
+          ]
+        }
+      }
+    ]
+  },
+  "solutions": {
+    "title": "Nasze rozwiązania",
+    "mes": {
+      "title": "Systemy MES",
+      "description": "Zaawansowane systemy Manufacturing Execution Systems do zarządzania produkcją"
+    },
+    "integration": {
+      "title": "Integracja systemów",
+      "description": "Integracja systemów wizyjnych, pomiarowych i kontroli jakości"
+    },
+    "automation": {
+      "title": "Automatyka przemysłowa",
+      "description": "Kompleksowa automatyzacja procesów produkcyjnych"
+    }
+  },
+  "services": {
+    "title": "Nasze Specjalizacje",
+    "hubLabel": "Zintegrowany system",
+    "webApps": {
+      "title": "Aplikacje Webowe",
+      "tagline": "Twoje centrum dowodzenia",
+      "description": "Intuicyjne dashboardy i aplikacje webowe, które pozwalają na pełną kontrolę nad procesami produkcyjnymi w czasie rzeczywistym.",
+      "hubLabel": "Aplikacja webowa",
+      "badges": {
+        "mes": {
+          "label": "MES",
+          "expanded": "Monitoring i alerty real-time"
+        },
+        "wms": {
+          "label": "WMS",
+          "expanded": "Zarządzanie magazynem"
+        },
+        "aps": {
+          "label": "APS",
+          "expanded": "Zaawansowane planowanie produkcji"
+        },
+        "cmms": {
+          "label": "CMMS",
+          "expanded": "Obsługa maszyn i serwis"
+        },
+        "mrp": {
+          "label": "MRP",
+          "expanded": "Planowanie materiałów"
+        },
+        "erp": {
+          "label": "ERP",
+          "expanded": "Systemy finansowo-księgowe"
+        }
+      }
+    },
+    "automation": {
+      "title": "Automatyka Przemysłowa",
+      "tagline": "Cyfrowy puls fabryki",
+      "description": "Integracja czujników, sterowników PLC i maszyn z systemami IT, tworząca spójny ekosystem produkcyjny.",
+      "hubLabel": "Automatyka",
+      "badges": {
+        "plc": {
+          "label": "PLC",
+          "expanded": "Sterowniki logiczne"
+        },
+        "scada": {
+          "label": "SCADA",
+          "expanded": "Nadzór i kontrola"
+        },
+        "iot": {
+          "label": "IoT",
+          "expanded": "Internet rzeczy"
+        },
+        "sensors": {
+          "label": "Czujniki",
+          "expanded": "Pomiary i monitorowanie"
+        },
+        "hmi": {
+          "label": "HMI",
+          "expanded": "Interfejsy operatorskie"
+        },
+        "dcs": {
+          "label": "DCS",
+          "expanded": "Systemy rozproszone"
+        }
+      }
+    },
+    "integration": {
+      "title": "Integracja",
+      "tagline": "Jeden spójny ekosystem",
+      "description": "Pełna integracja systemów ERP, MES, WMS i innych, tworząca spójny przepływ danych w całej firmie.",
+      "hubLabel": "Zintegrowany system",
+      "badges": {
+        "mes": {
+          "label": "MES",
+          "expanded": "Monitoring i alerty real-time"
+        },
+        "wms": {
+          "label": "WMS",
+          "expanded": "Zarządzanie magazynem"
+        },
+        "aps": {
+          "label": "APS",
+          "expanded": "Zaawansowane planowanie produkcji"
+        },
+        "cmms": {
+          "label": "CMMS",
+          "expanded": "Obsługa maszyn i serwis"
+        },
+        "mrp": {
+          "label": "MRP",
+          "expanded": "Planowanie materiałów"
+        },
+        "erp": {
+          "label": "ERP",
+          "expanded": "Systemy finansowo-księgowe"
+        },
+        "plc": {
+          "label": "PLC",
+          "expanded": "Sterowniki logiczne"
+        },
+        "scada": {
+          "label": "SCADA",
+          "expanded": "Nadzór i kontrola"
+        },
+        "iot": {
+          "label": "IoT",
+          "expanded": "Internet rzeczy"
+        },
+        "sensors": {
+          "label": "Czujniki",
+          "expanded": "Pomiary i monitorowanie"
+        },
+        "hmi": {
+          "label": "HMI",
+          "expanded": "Interfejsy operatorskie"
+        },
+        "dcs": {
+          "label": "DCS",
+          "expanded": "Systemy rozproszone"
+        }
+      }
+    }
+  },
+  "process": {
+    "title": {
+      "prefix": "Nasz",
+      "gradient": "wspólny",
+      "suffix": "proces"
+    },
+    "badge": "WSPÓŁPRACA NA KAŻDYM KROKU",
+    "subtitle": "Jak pracujemy nad Twoim projektem",
+    "collaboration": "WSPÓŁPRACA",
+    "stage_label": "ETAP",
+    "stage1": {
+      "title": "Analiza",
+      "description": "Dogłębna analiza Twoich potrzeb i wymagań produkcyjnych. Rozumiemy Twój unikalny proces i identyfikujemy kluczowe obszary do optymalizacji.",
+      "feature1": "Konsultacje z zespołem produkcyjnym",
+      "feature2": "Analiza istniejących procesów",
+      "feature3": "Wspólne określenie priorytetów",
+      "feature4": "Mapowanie przepływu danych i integracji",
+      "collaboration": "Wspólnie z Twoim zespołem"
+    },
+    "stage2": {
+      "title": "Projektowanie",
+      "description": "Tworzenie architektury rozwiązania dostosowanej do Twojego zakładu. Projektujemy system, który idealnie wpisuje się w Twoje procesy produkcyjne.",
+      "feature1": "Prezentacja koncepcji i prototypów",
+      "feature2": "Iteracyjne uzgadnianie szczegółów",
+      "feature3": "Twoja akceptacja przed wdrożeniem",
+      "feature4": "Szczegółowa dokumentacja architektury i integracji",
+      "collaboration": "Twoja akceptacja przed wdrożeniem"
+    },
+    "stage3": {
+      "title": "Implementacja",
+      "description": "Programowanie, integracja i testowanie systemu. Budujemy rozwiązanie zgodnie z zatwierdzonym projektem, z pełną transparentnością procesu.",
+      "feature1": "Deployment na środowisko testowe",
+      "feature2": "Wspólne testy z Twoim zespołem",
+      "feature3": "Iteracyjne poprawki na podstawie feedbacku",
+      "feature4": "Integracja z istniejącymi systemami (ERP, MES, WMS)",
+      "collaboration": "Wspólne testy z Twoim zespołem"
+    },
+    "stage4": {
+      "title": "Wdrożenie",
+      "description": "Instalacja i uruchomienie systemu w Twoim zakładzie. Zapewniamy płynne przejście z minimalnym wpływem na produkcję.",
+      "feature1": "Migracja po Twojej akceptacji",
+      "feature2": "Szkolenia dostosowane do zespołu",
+      "feature3": "Wsparcie w pierwszych dniach działania",
+      "feature4": "Instalacja sprzętu i konfiguracja systemu na miejscu",
+      "collaboration": "Szkolenie Twojego zespołu"
+    },
+    "stage5": {
+      "title": "Wsparcie",
+      "description": "Ciągłe wsparcie techniczne i rozwój systemu. Jesteśmy z Tobą na każdym etapie, zapewniając długoterminowy sukces rozwiązania.",
+      "feature1": "Dedykowany kontakt techniczny",
+      "feature2": "Ciągły rozwój na podstawie potrzeb",
+      "feature3": "Proaktywne propozycje ulepszeń",
+      "feature4": "Regularne aktualizacje i nowe funkcjonalności",
+      "collaboration": "Stały kontakt z opiekunem"
+    }
+  },
+  "realizacje": {
+    "title": "Nasze realizacje",
+    "subtitle": "Zobacz nasze dotychczasowe projekty i przekonaj się o jakości naszych usług",
+    "lead": "Trzy sceny scrolly-tellingu: linia technologiczna + aplikacja webowa + opis problemu, rozwiązania i efektu.",
+    "media": {
+      "lineLabel": "Zdjęcie linii technologicznej",
+      "appLabel": "Screen z demówki"
+    },
+    "labels": {
+      "problem": "Problem",
+      "solution": "Rozwiązanie",
+      "result": "Rezultat"
+    },
+    "cases": [
+      {
+        "title": "Skanery i traceability",
+        "subtitle": "Automatyczna identyfikacja partii na liniach pakowania",
+        "problem": [
+          "Brak pełnej identyfikowalności partii i operatorów przy krytycznych etapach.",
+          "Raporty rozproszone w wielu arkuszach i plikach.",
+          "Brak dowodów jakości przy reklamacjach."
+        ],
+        "solution": [
+          "Czujniki i skanery na kluczowych stanowiskach, mapowanie partii i operatorów.",
+          "Integracja z wagami i etykietami, rejestr zdarzeń w czasie rzeczywistym.",
+          "Dashboard traceability w aplikacji webowej z historią partii."
+        ],
+        "result": [
+          "Pełna ścieżka partii dostępna w kilka sekund.",
+          "Mniej błędów etykietowania i mniej ręcznych poprawek.",
+          "Szybsze odpowiedzi na audyty i reklamacje."
+        ]
+      },
+      {
+        "title": "OEE i przestoje",
+        "subtitle": "Monitoring maszyn i alerty utrzymania ruchu",
+        "problem": [
+          "Niski OEE i brak bieżącej widoczności przestojów.",
+          "Ręczne raporty opóźniają reakcję na awarie.",
+          "Brak danych do planowania serwisu."
+        ],
+        "solution": [
+          "Moduł OEE z czujnikami statusów maszyn i automatyczną klasyfikacją przestojów.",
+          "Powiadomienia o awariach i przekroczeniach czasu przestoju.",
+          "Panel OEE z timeline zdarzeń i filtrami dla zmian i gniazd."
+        ],
+        "result": [
+          "Szybsza reakcja na awarie i krótsze przestoje nieplanowane.",
+          "Lepsze planowanie przeglądów dzięki danym o awariach.",
+          "Jedno źródło prawdy dla OEE i historii zdarzeń."
+        ]
+      },
+      {
+        "title": "Integracja ERP/MES/WMS",
+        "subtitle": "Hub API do synchronizacji produkcji i magazynu",
+        "problem": [
+          "Dane o zamówieniach, produkcji i stanach w różnych systemach.",
+          "Opóźnienia w aktualizacji stanów magazynowych po produkcji.",
+          "Ryzyko błędów ręcznego wprowadzania danych."
+        ],
+        "solution": [
+          "Hub API łączący ERP, MES i WMS z dwukierunkową synchronizacją.",
+          "Mapa procesów: zlecenia → produkcja → przyjęcia i wydania.",
+          "Walidacje i kolejki dla odporności na chwilowe przerwy."
+        ],
+        "result": [
+          "Spójne dane w całym łańcuchu: zamówienia, produkcja, magazyn.",
+          "Mniej ręcznych poprawek i rozbieżności stanów.",
+          "Gotowość do raportów finansowych i jakościowych w czasie bliskim rzeczywistemu."
+        ]
+      }
+    ]
+  },
+  "whyUs": {
+    "title": "Dlaczego my?",
+    "subtitle": "Automatyka przemysłowa spotyka sztuczną inteligencję",
+    "nextCard": "Następna karta",
+    "value1": {
+      "title": "Eksperci automatyki przemysłowej",
+      "description": "Jesteśmy zespołem praktyków, którzy łączą świat sensorów i sterowników PLC z nowoczesnym oprogramowaniem. Dzięki setkom wdrożeń bierzemy pełną odpowiedzialność za stabilność, bezpieczeństwo i wydajność Twoich linii produkcyjnych.",
+      "highlights": [
+        "Interdyscyplinarny zespół – eksperci od automatyki, robotyki i IT pracujący nad jednym celem.",
+        "Wsparcie 360° – od audytu i doboru czujników, po montaż, programowanie i serwis.",
+        "Standardy Industry 4.0 – projektujemy systemy z myślą o pracy 24/7 w najbardziej wymagających warunkach."
+      ]
+    },
+    "value2": {
+      "title": "Dedykowane rozwiązania AI",
+      "description": "Wykorzystujemy sztuczną inteligencję w dowolnym, niezbędnym dla Ciebie obszarze. Od nauki procesów i personalizowane raportowanie po predykcje produkcyjne – budujemy narzędzia, które ewoluują wraz z rozwojem Twojej firmy.",
+      "highlights": [
+        "Inteligentna analiza i raportowanie – automatyczne generowanie wniosków z dużych zbiorów danych.",
+        "Wykrywanie aberracji i anomalii – natychmiastowa identyfikacja nawet najmniejszych odchyleń od normy.",
+        "Adaptacja do procesów – modelowanie AI ściśle pod konkretne maszyny i linie produkcyjne."
+      ]
+    },
+    "value3": {
+      "title": "Dynamiczna analityka i raportowanie",
+      "description": "Dostarczamy narzędzia, które zamieniają surowe dane w czytelną wiedzę biznesową. Nasze systemy pozwalają na pełną personalizację widoków oraz automatyzację dokumentacji, dając Ci pełny wgląd w kondycję zakładu.",
+      "highlights": [
+        "Raporty PDF na żądanie – automatyczne generowanie szczegółowych zestawień i podsumowań dla dowolnie wybranych okresów.",
+        "Dedykowane analityczne widoki z zestawieniami danych.",
+        "Wnioskowanie wspierane przez AI – inteligentne podsumowania trendów, które podpowiadają, na co zwrócić uwagę w nadchodzącym tygodniu."
+      ]
+    },
+    "value4": {
+      "title": "Iteracyjne wdrożenie i partnerstwo",
+      "description": "Realizujemy projekty etapami, dbając o płynne przejście od koncepcji do pełnej implementacji. Łączymy świat automatyki i IT, dostarczając funkcjonalności, które wspólnie projektujemy i weryfikujemy na każdym kroku.",
+      "highlights": [
+        "Bezpieczny staging – pełne testy automatyki i kodu przed uruchomieniem.",
+        "Transparentny proces – stały kontakt i bieżące omawianie funkcjonalności.",
+        "Rozwiązania \"Custom\" – systemy precyzyjnie szyte na miarę."
+      ]
+    },
+    "value5": {
+      "title": "Programiści z pasją do usprawnień",
+      "description": "Tworzymy zespół doświadczonych inżynierów oprogramowania, którzy doskonale rozumieją dynamikę nowoczesnego przemysłu. Nasze systemy łączą bezawaryjność z nowoczesnymi standardami UI/UX, dostarczając narzędzia, które pracownicy po prostu lubią obsługiwać.",
+      "highlights": [
+        "Bezpośredni dialog z twórcami – projektujesz funkcjonalności i wygląd aplikacji w stałym kontakcie z naszymi programistami.",
+        "Intuicyjność i ergonomia – stawiamy na prostotę obsługi, aby wdrożenie systemu było szybkie i bezproblemowe.",
+        "Wszechstronność i stabilność – budujemy elastyczne rozwiązania, które zachowują najwyższą wydajność przy dużym obciążeniu danymi."
+      ]
+    },
+    "value6": {
+      "title": "Skalowalność i systemy Future-Ready",
+      "description": "Projektujemy rozwiązania z myślą o przyszłości Twojego zakładu. Nasza architektura jest modułowa, co pozwala na błyskawiczną rozbudowę systemu o nowe linie produkcyjne, maszyny czy sensory bez konieczności przebudowy całego fundamentu IT.",
+      "highlights": [
+        "Modułowa budowa – swobodne dodawanie nowych funkcjonalności i stanowisk wraz z rozwojem firmy.",
+        "Otwartość na integracje – łatwa łączność z Twoimi obecnymi systemami ERP, CRM czy magazynowymi.",
+        "Technologiczna długowieczność – korzystamy ze stosów technologicznych, które będą wspierane przez dziesięciolecia."
+      ],
+      "cta": {
+        "primary": {
+          "text": "Skontaktuj się z nami",
+          "href": "#contact"
+        },
+        "secondary": {
+          "text": "Zobacz portfolio",
+          "href": "#realizacje"
+        }
+      },
+      "testimonial": "50+ zadowolonych klientów w całej Polsce"
+    }
+  },
+  "contact": {
+    "title": "Gotowy na Cyfrową Transformację?",
+    "subtitle": "Porozmawiajmy o tym, jak możemy zoptymalizować Twój zakład.",
+    "form": {
+      "cardTitle": "Napisz do nas",
+      "name": "Imię",
+      "email": "Email",
+      "message": "Wiadomość",
+      "submit": "Umów bezpłatną konsultację",
+      "submitting": "Wysyłanie...",
+      "success": "Dziękujemy! Otworzono klienta email.",
+      "copy": "Kopiuj",
+      "copied": "Skopiowano",
+      "namePlaceholder": "Twoje imię",
+      "emailPlaceholder": "twój{'@'}email.com",
+      "messagePlaceholder": "Napisz swoją wiadomość..."
+    },
+    "info": {
+      "title": "Dane kontaktowe",
+      "email": "Email",
+      "phone": "Telefon",
+      "address": "Polska",
+      "addressValue": "Polska",
+      "responseTime": "Odpowiedź w ciągu 24h",
+      "responseValue": "24h",
+      "copyEmail": "Kopiuj email",
+      "copyPhone": "Kopiuj telefon"
+    }
+  },
+  "mobileNav": {
+    "next": "Następna",
+    "previous": "Poprzednia"
+  },
+  "common": {
+    "theme": "Motyw",
+    "language": "Język",
+    "step": "Etap",
+    "readMore": "Więcej...",
+    "readLess": "Mniej"
+  }
+}
