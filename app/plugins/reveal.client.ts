@@ -1,6 +1,11 @@
 export default defineNuxtPlugin(() => {
   if (!import.meta.client) return
 
+  const rootElement =
+    document.querySelector<HTMLElement>('[data-scroll-container]') ??
+    document.querySelector<HTMLElement>('main') ??
+    null
+
   const observer = new IntersectionObserver(
     entries => {
       entries.forEach(entry => {
@@ -10,7 +15,7 @@ export default defineNuxtPlugin(() => {
         }
       })
     },
-    { threshold: 0.2 }
+    { threshold: 0.2, root: rootElement }
   )
 
   const observe = () => {

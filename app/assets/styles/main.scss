@@ -18,6 +18,9 @@ body {
   font-family: $font-family-base;
   color: var(--color-text);
   background-color: var(--color-background);
+  background-image:
+    radial-gradient(80% 80% at 10% 0%, rgba(var(--color-primary-rgb), 0.08), transparent 60%),
+    radial-gradient(70% 70% at 90% 10%, rgba(var(--color-accent-rgb), 0.08), transparent 60%);
   transition: background-color $transition-base, color $transition-base;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -51,6 +54,10 @@ p {
   padding: $spacing-3xl $spacing-lg;
   position: relative;
   scroll-margin-top: 90px;
+
+  @include tablet {
+    padding: $spacing-2xl $spacing-lg;
+  }
 
   @include mobile {
     padding: $spacing-2xl $spacing-md;

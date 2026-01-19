@@ -203,18 +203,56 @@
     ]
   },
   "solutions": {
+    "eyebrow": "Kompetencje end-to-end",
     "title": "Nasze rozwiązania",
+    "subtitle": "Projektujemy systemy, które łączą dane, automatykę i ludzi w jeden spójny ekosystem.",
+    "lead": "Wybierz moduły, które odpowiadają Twoim procesom. Każde wdrożenie rozszerzamy o integracje i analitykę, aby decyzje były oparte o aktualne dane.",
+    "stats": [
+      {
+        "value": "24/7",
+        "label": "monitoring produkcji"
+      },
+      {
+        "value": "1 źródło",
+        "label": "spójnych danych"
+      },
+      {
+        "value": "SLA 99,9%",
+        "label": "dla krytycznych procesów"
+      }
+    ],
     "mes": {
-      "title": "Systemy MES",
-      "description": "Zaawansowane systemy Manufacturing Execution Systems do zarządzania produkcją"
+      "badge": "Aplikacje",
+      "title": "Szyte na miarę aplikacje",
+      "description": "Projektujemy aplikacje produkcyjne dopasowane do Twoich procesów, z AI wspierającą raportowanie, planowanie i wykrywanie odchyleń.",
+      "highlights": [
+        "Panele operatorskie i dashboardy KPI",
+        "Automatyzacja raportów i obiegu zleceń",
+        "AI wspomagające analizy i decyzje"
+      ],
+      "tags": ["MES", "WMS", "APS", "CMMS", "MRP"]
     },
     "integration": {
+      "badge": "Integracja",
       "title": "Integracja systemów",
-      "description": "Integracja systemów wizyjnych, pomiarowych i kontroli jakości"
+      "description": "Łączymy ERP, WMS, SCADA i systemy pomiarowe w jeden spójny przepływ danych.",
+      "highlights": [
+        "Synchronizacja danych w czasie rzeczywistym",
+        "Automatyzacja przepływów między działami",
+        "Eliminacja silosów informacji"
+      ],
+      "tags": ["ERP", "WMS", "API", "Middleware"]
     },
     "automation": {
+      "badge": "Automatyka",
       "title": "Automatyka przemysłowa",
-      "description": "Kompleksowa automatyzacja procesów produkcyjnych"
+      "description": "Kompleksowa automatyzacja procesów produkcyjnych i bezpieczna integracja maszyn z IT.",
+      "highlights": [
+        "Integracja PLC, SCADA i IoT",
+        "Predykcyjne utrzymanie ruchu",
+        "Bezpieczna komunikacja OT/IT"
+      ],
+      "tags": ["PLC", "SCADA", "IOT", "SENSORS", "HMI", "DCS"]
     }
   },
   "services": {

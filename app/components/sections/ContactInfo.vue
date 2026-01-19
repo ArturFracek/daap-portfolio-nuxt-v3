@@ -75,10 +75,19 @@ const { contactData, copyEmail, copyPhone, copyFeedback, isClipboardSupported } 
   button {
     border: 1px solid rgba(var(--color-border-rgb), 0.7);
     background: transparent;
-    border-radius: 999px;
+    border-radius: 0;
     padding: 0.2rem 0.6rem;
     font-size: 0.75rem;
     cursor: pointer;
+    text-transform: uppercase;
+    clip-path: polygon(
+      var(--cut-size-sm) 0,
+      100% 0,
+      100% calc(100% - var(--cut-size-sm)),
+      calc(100% - var(--cut-size-sm)) 100%,
+      0 100%,
+      0 var(--cut-size-sm)
+    );
   }
 }
 </style>

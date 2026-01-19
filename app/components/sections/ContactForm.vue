@@ -75,7 +75,7 @@ input,
 textarea {
   border: 1px solid rgba(var(--color-border-rgb), 0.6);
   background: rgba(var(--color-surface-rgb), 0.7);
-  border-radius: 12px;
+  border-radius: 0;
   padding: 0.75rem 1rem;
   color: var(--color-text);
 }

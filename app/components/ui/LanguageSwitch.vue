@@ -27,15 +27,23 @@ const { locale, setLocale, t } = useI18n()
 .language-switch {
   display: inline-flex;
   padding: 0.2rem;
-  border-radius: 999px;
-  border: 1px solid rgba(var(--color-border-rgb), 0.7);
+  border-radius: 0;
+  border: 2px solid rgba(var(--color-border-rgb), 0.7);
   background: rgba(var(--color-surface-rgb), 0.7);
+  clip-path: polygon(
+    var(--cut-size-sm) 0,
+    100% 0,
+    100% calc(100% - var(--cut-size-sm)),
+    calc(100% - var(--cut-size-sm)) 100%,
+    0 100%,
+    0 var(--cut-size-sm)
+  );
 }
 
 .language-switch__button {
   padding: 0.35rem 0.7rem;
   border: none;
-  border-radius: 999px;
+  border-radius: 0;
   background: transparent;
   color: var(--color-text-secondary);
   font-weight: 600;

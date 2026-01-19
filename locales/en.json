@@ -210,18 +210,56 @@
     ]
   },
   "solutions": {
+    "eyebrow": "End-to-end expertise",
     "title": "Our Solutions",
+    "subtitle": "We design systems that connect data, automation, and people into one coherent ecosystem.",
+    "lead": "Choose the modules that fit your processes. Every deployment is extended with integrations and analytics so decisions are made on live data.",
+    "stats": [
+      {
+        "value": "24/7",
+        "label": "production monitoring"
+      },
+      {
+        "value": "Single source",
+        "label": "of trusted data"
+      },
+      {
+        "value": "99.9% SLA",
+        "label": "for critical processes"
+      }
+    ],
     "mes": {
-      "title": "MES Systems",
-      "description": "Advanced Manufacturing Execution Systems for production management"
+      "badge": "Apps",
+      "title": "Custom-built applications",
+      "description": "We design production apps tailored to your processes, with AI supporting reporting, planning, and anomaly detection.",
+      "highlights": [
+        "Operator panels and KPI dashboards",
+        "Automated reports and work order flow",
+        "AI-assisted analytics and decisions"
+      ],
+      "tags": ["MES", "WMS", "APS", "CMMS", "MRP"]
     },
     "integration": {
+      "badge": "Integration",
       "title": "Systems Integration",
-      "description": "Integration of vision systems, measurement systems, and quality control"
+      "description": "We connect ERP, WMS, SCADA, and measurement systems into one data flow.",
+      "highlights": [
+        "Real-time data synchronization",
+        "Automated cross-team workflows",
+        "Eliminate information silos"
+      ],
+      "tags": ["ERP", "WMS", "API", "Middleware"]
     },
     "automation": {
+      "badge": "Automation",
       "title": "Industrial Automation",
-      "description": "Comprehensive automation of production processes"
+      "description": "Comprehensive automation of production processes with safe OT/IT integration.",
+      "highlights": [
+        "PLC, SCADA, and IoT integration",
+        "Predictive maintenance",
+        "Secure OT/IT communication"
+      ],
+      "tags": ["PLC", "SCADA", "IOT", "SENSORS", "HMI", "DCS"]
     }
   },
   "services": {

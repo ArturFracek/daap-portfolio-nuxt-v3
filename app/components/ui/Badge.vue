@@ -23,11 +23,20 @@ withDefaults(
   align-items: center;
   gap: 0.5rem;
   padding: 0.35rem 0.8rem;
-  border-radius: 999px;
+  border-radius: 0;
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.02em;
   border: 1px solid transparent;
+  text-transform: uppercase;
+  clip-path: polygon(
+    var(--cut-size-sm) 0,
+    100% 0,
+    100% calc(100% - var(--cut-size-sm)),
+    calc(100% - var(--cut-size-sm)) 100%,
+    0 100%,
+    0 var(--cut-size-sm)
+  );
 }
 
 .badge--primary {

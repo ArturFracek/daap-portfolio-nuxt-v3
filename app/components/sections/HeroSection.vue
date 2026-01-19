@@ -3,21 +3,21 @@
     <GradientBlob class="hero__blob" :size="420" top="-120px" right="-80px" />
     <div class="container hero__inner">
       <div class="hero__content" data-reveal>
-        <Badge variant="secondary">{{ t('hero.featureBadge1') }}</Badge>
-        <h1 class="hero__title">{{ t('hero.headline') }}</h1>
-        <p class="hero__subtitle">{{ t('hero.subheadline') }}</p>
+        <Badge variant="secondary">{{ t("hero.featureBadge1") }}</Badge>
+        <h1 class="hero__title">{{ t("hero.headline") }}</h1>
+        <p class="hero__subtitle">{{ t("hero.subheadline") }}</p>
         <div class="hero__actions">
           <Button variant="primary" size="lg" to="#contact">
-            {{ t('contact.title') }}
+            {{ t("contact.title") }}
           </Button>
           <Button variant="secondary" size="lg" to="#solutions">
-            {{ t('solutions.title') }}
+            {{ t("solutions.title") }}
           </Button>
         </div>
         <div class="hero__badges">
-          <Badge variant="ghost">{{ t('hero.featureBadge1') }}</Badge>
-          <Badge variant="ghost">{{ t('hero.featureBadge2') }}</Badge>
-          <Badge variant="ghost">{{ t('hero.featureBadge3') }}</Badge>
+          <Badge variant="ghost">{{ t("hero.featureBadge1") }}</Badge>
+          <Badge variant="ghost">{{ t("hero.featureBadge2") }}</Badge>
+          <Badge variant="ghost">{{ t("hero.featureBadge3") }}</Badge>
         </div>
       </div>
       <div class="hero__visual" data-reveal>
@@ -31,12 +31,14 @@
             <p class="hero__card-title">DAAP</p>
             <span class="hero__card-pulse" aria-hidden="true" />
           </div>
-          <p class="hero__card-subtitle">{{ t('solutions.integration.description') }}</p>
+          <p class="hero__card-subtitle">
+            {{ t("solutions.integration.description") }}
+          </p>
           <ConnectionLines />
           <div class="hero__card-tags">
-            <span class="hero__tag">{{ t('hero.featureBadge1') }}</span>
-            <span class="hero__tag">{{ t('hero.featureBadge2') }}</span>
-            <span class="hero__tag">{{ t('hero.featureBadge3') }}</span>
+            <span class="hero__tag">{{ t("hero.featureBadge1") }}</span>
+            <span class="hero__tag">{{ t("hero.featureBadge2") }}</span>
+            <span class="hero__tag">{{ t("hero.featureBadge3") }}</span>
           </div>
         </div>
       </div>
@@ -45,7 +47,7 @@
 </template>
 
 <script setup lang="ts">
-const { t } = useI18n()
+const { t } = useI18n();
 </script>
 
 <style scoped lang="scss">
@@ -59,10 +61,21 @@ const { t } = useI18n()
   content: "";
   position: absolute;
   inset: 0;
-  background:
-    radial-gradient(circle at 8% 10%, rgba(var(--color-primary-rgb), 0.16), transparent 40%),
-    radial-gradient(circle at 90% 20%, rgba(var(--color-secondary-rgb), 0.18), transparent 45%),
-    linear-gradient(120deg, rgba(var(--color-text-secondary-rgb), 0.08) 0%, transparent 60%);
+  background: radial-gradient(
+      circle at 8% 10%,
+      rgba(var(--color-primary-rgb), 0.16),
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 90% 20%,
+      rgba(var(--color-secondary-rgb), 0.18),
+      transparent 45%
+    ),
+    linear-gradient(
+      120deg,
+      rgba(var(--color-text-secondary-rgb), 0.08) 0%,
+      transparent 60%
+    );
   opacity: 0.9;
   pointer-events: none;
 }
@@ -74,7 +87,11 @@ const { t } = useI18n()
   height: 60vh;
   left: -10vw;
   top: -10vh;
-  background: linear-gradient(140deg, rgba(var(--color-accent-rgb), 0.15), transparent 60%);
+  background: linear-gradient(
+    140deg,
+    rgba(var(--color-accent-rgb), 0.15),
+    transparent 60%
+  );
   filter: blur(30px);
   opacity: 0.8;
   pointer-events: none;
@@ -101,7 +118,12 @@ const { t } = useI18n()
   font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1.05;
-  background: linear-gradient(120deg, var(--color-text) 0%, var(--color-primary) 45%, var(--color-accent) 70%);
+  background: linear-gradient(
+    120deg,
+    var(--color-text) 0%,
+    var(--color-primary) 45%,
+    var(--color-accent) 70%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -136,17 +158,24 @@ const { t } = useI18n()
   width: 40vw;
   min-width: 280px;
   padding: 36px;
-  border-radius: 28px;
+  border-radius: 0;
   background: linear-gradient(
     160deg,
     rgba(var(--color-surface-rgb), 0.92),
     rgba(var(--color-surface-rgb), 0.65)
   );
   border: 1px solid rgba(var(--color-border-rgb), 0.45);
-  box-shadow:
-    0 30px 60px rgba(var(--color-primary-rgb), 0.16),
+  box-shadow: 0 30px 60px rgba(var(--color-primary-rgb), 0.16),
     inset 0 0 40px rgba(var(--color-accent-rgb), 0.08);
   backdrop-filter: blur(18px);
+  clip-path: polygon(
+    var(--cut-size) 0,
+    100% 0,
+    100% calc(100% - var(--cut-size)),
+    calc(100% - var(--cut-size)) 100%,
+    0 100%,
+    0 var(--cut-size)
+  );
 }
 
 .hero__card-title {
@@ -175,7 +204,7 @@ const { t } = useI18n()
   height: 1vw;
   min-width: 8px;
   min-height: 8px;
-  border-radius: 999px;
+  border-radius: 0;
   background: var(--gradient-primary);
   box-shadow: 0 0 18px rgba(var(--color-primary-rgb), 0.4);
   animation: heroPulse 2.8s ease-in-out infinite;
@@ -190,13 +219,22 @@ const { t } = useI18n()
 
 .hero__tag {
   padding: 6px 12px;
-  border-radius: 999px;
+  border-radius: 0;
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.02em;
   background: rgba(var(--color-primary-rgb), 0.12);
   color: var(--color-text);
   border: 1px solid rgba(var(--color-primary-rgb), 0.18);
+  text-transform: uppercase;
+  clip-path: polygon(
+    var(--cut-size-sm) 0,
+    100% 0,
+    100% calc(100% - var(--cut-size-sm)),
+    calc(100% - var(--cut-size-sm)) 100%,
+    0 100%,
+    0 var(--cut-size-sm)
+  );
 }
 
 .hero__orbital {
@@ -205,7 +243,7 @@ const { t } = useI18n()
   height: 26vw;
   right: -2vw;
   top: -4vh;
-  border-radius: 50%;
+  border-radius: 0;
   border: 1px dashed rgba(var(--color-border-rgb), 0.6);
   opacity: 0.6;
   animation: heroOrbit 18s linear infinite;
@@ -217,7 +255,7 @@ const { t } = useI18n()
   height: 0.8vw;
   min-width: 6px;
   min-height: 6px;
-  border-radius: 50%;
+  border-radius: 0;
   background: var(--gradient-accent);
   box-shadow: 0 0 12px rgba(var(--color-accent-rgb), 0.4);
 }
@@ -235,6 +273,61 @@ const { t } = useI18n()
 .hero__orbital-dot--c {
   bottom: 12%;
   left: 45%;
+}
+
+@include mobile {
+  .hero__inner {
+    gap: 28px;
+  }
+
+  .hero__content {
+    max-width: 100%;
+    text-align: center;
+    justify-items: center;
+  }
+
+  .hero__title {
+    font-size: clamp(2.1rem, 8vw, 3rem);
+  }
+
+  .hero__subtitle {
+    max-width: 100%;
+    font-size: 1rem;
+  }
+
+  .hero__actions,
+  .hero__badges {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .hero__visual {
+    min-height: auto;
+  }
+
+  .hero__card {
+    width: 100%;
+    max-width: 520px;
+    padding: 24px;
+  }
+
+  .hero__orbital {
+    display: none;
+  }
+}
+
+@include tablet {
+  .hero__content {
+    max-width: 100%;
+  }
+
+  .hero__subtitle {
+    max-width: 100%;
+  }
+
+  .hero__card {
+    width: min(520px, 100%);
+  }
 }
 
 @keyframes heroPulse {

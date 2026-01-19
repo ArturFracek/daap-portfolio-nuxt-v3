@@ -29,12 +29,20 @@ const toggle = () => {
   align-items: center;
   gap: 0.5rem;
   padding: 0.35rem 0.7rem;
-  border-radius: 999px;
-  border: 1px solid rgba(var(--color-border-rgb), 0.7);
+  border-radius: 0;
+  border: 2px solid rgba(var(--color-border-rgb), 0.7);
   background: rgba(var(--color-surface-rgb), 0.7);
   color: var(--color-text);
   cursor: pointer;
   transition: background 200ms ease, border-color 200ms ease;
+  clip-path: polygon(
+    var(--cut-size-sm) 0,
+    100% 0,
+    100% calc(100% - var(--cut-size-sm)),
+    calc(100% - var(--cut-size-sm)) 100%,
+    0 100%,
+    0 var(--cut-size-sm)
+  );
 
   &:hover {
     border-color: rgba(var(--color-accent-rgb), 0.8);
@@ -44,7 +52,7 @@ const toggle = () => {
 .theme-toggle__dot {
   width: 12px;
   height: 12px;
-  border-radius: 999px;
+  border-radius: 0;
   background: var(--gradient-primary);
   box-shadow: 0 0 12px rgba(var(--color-primary-rgb), 0.6);
 }
